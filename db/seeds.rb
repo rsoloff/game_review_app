@@ -8,4 +8,4 @@
 
 Game.create([{ name: 'Super Smash Bros Melee'}, { developer: 'HAL Laboratory' }, { genre: 'Fighting game' }, { publisher: 'Nintendo' }, { image_url: 'https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png' }, { audio_url: "http://downloads.khinsider.com/game-soundtracks/album/super-smash-bros.-melee-original-sound-version/54-menu-1.mp3" }])
 
-Game.create([{ name: 'Blazblue: Chrono Phantasma Extend' }, { developer: 'Arc System Works'}, { genre: 'Fighting game' }, { publisher: 'Aksys Games'}, { image_url: 'http://ecx.images-amazon.com/images/I/81QlyPxvDpL._SL1500_.jpg'}, { audio_url: ''}]), 
+#Game.create([{ name: 'Blazblue: Chrono Phantasma Extend' }, { developer: 'Arc System Works'}, { genre: 'Fighting game' }, { publisher: 'Aksys Games'}, { image_url: 'http://ecx.images-amazon.com/images/I/81QlyPxvDpL._SL1500_.jpg'}, { audio_url: ''}]), 

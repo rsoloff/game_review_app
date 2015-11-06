@@ -2,5 +2,6 @@ Rails.application.routes.draw do
   get 'login' => "sessions#new"
   post 'login' => "sessions#create"
   delete 'logout' => "sessions#destroy"
-  resources :users, :games :reviews, :comments
+  root to: "games#index"
+  resources :users, :games, :reviews, :comments
 end
