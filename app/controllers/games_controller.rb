@@ -9,6 +9,6 @@ class GamesController < ApplicationController
 
   private
   def game_params
-    params.require(:name, :developer, :publisher, :genre, :image_url, :audio_url)
+    params.require(:game).permit(:name, :developer, :publisher, :genre, :image_url, :audio_url, :platform, :rating)
   end
 end
