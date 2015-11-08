@@ -1,12 +1,10 @@
-<h1>Hi</h1>
-<%= render partial: "game" %>
 <div class="games-all">
   <% @games.each do |game| %>
     <p>
-      <% @game.name %>
+      <% game.name %>
     </p>
     <p>
-      <img src="<% @game.image_url %>"/>
+      <img src="<% game.image_url %>"/>
     </p>
   <% end %>
 </div>

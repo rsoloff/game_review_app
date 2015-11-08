@@ -18,10 +18,4 @@ class CommentTest < ActiveSupport::TestCase
     @comment.body = ""
     assert_not @comment.valid?
   end
-
-  test "review_id should be a number" do
-    @comment.review_id = "a"
-    assert_not @comment.valid?
-  end
-
 end

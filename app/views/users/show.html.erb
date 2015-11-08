@@ -1,0 +1,6 @@
+<div id="user-page">
+  <h1>Welcome, <%= @user.username %></h1>
+</div>
+
+<%= link_to 'Game List', games_path %>
+<%= link_to 'Log Out', logout_path, method: :delete %>

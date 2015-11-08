@@ -28,9 +28,4 @@ class ReviewTest < ActiveSupport::TestCase
     @review.rating = 11
     assert_not @review.valid?
   end
-
-  test "game_id should be a number" do
-    @review.game_id = "a"
-    assert_not @review.valid?
-  end
 end
